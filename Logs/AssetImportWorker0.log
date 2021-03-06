@@ -1,0 +1,1116 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/alfredobolio/Documents/Unity/ArProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65309
+Successfully changed project path to: /Users/alfredobolio/Documents/Unity/ArProject
+/Users/alfredobolio/Documents/Unity/ArProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/alfredobolio/Documents/Unity/ArProject/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-02 16:56:54.872 Unity[10347:294235] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-03-02 16:56:54.872 Unity[10347:294235] Metal devices available: 2
+2021-03-02 16:56:54.872 Unity[10347:294235] 0: AMD Radeon Pro 5300M (high power)
+2021-03-02 16:56:54.872 Unity[10347:294235] 1: Intel(R) UHD Graphics 630 (low power)
+2021-03-02 16:56:54.872 Unity[10347:294235] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56347
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.6f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004022 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 26.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.628 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 1.928503 ms (FindLiveObjects: 0.161201 ms CreateObjectMapping: 0.051267 ms MarkObjects: 1.638365 ms  DeleteObjects: 0.076930 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Images/Example Database.asset
+  artifactKey: Guid(c3e077e231877401e8d2163ebbbc9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Images/Example Database.asset using Guid(c3e077e231877401e8d2163ebbbc9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5865e3e46eb1c4c63747d92317dab51') in 1.244187 seconds
+  Import took 1.248972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.511714 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ca0af7b969419e728550268e1b1fa') in 0.852904 seconds
+  Import took 0.857566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001672 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ca0af7b969419e728550268e1b1fa') in 0.020474 seconds
+  Import took 0.023923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.134045 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4479e9159d8c4376ab4b4039483090') in 0.030275 seconds
+  Import took 0.034482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.179734 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031959d04505bb4ab9efc61bea0a77e3') in 0.024317 seconds
+  Import took 0.027542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.231395 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4380a3cee1039dcf9739088887eeaa05') in 0.022659 seconds
+  Import took 0.026136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577419 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9f3512a3941acb7f53d0af2034afec') in 0.018968 seconds
+  Import took 0.022118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.212528 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/ARCore_pawn.fbx
+  artifactKey: Guid(f84456e53845d45738b1156787e9a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/ARCore_pawn.fbx using Guid(f84456e53845d45738b1156787e9a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b63c2a7ddcde65b33c8e6c861af5a7') in 0.514347 seconds
+  Import took 0.518280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedFaces/Models/canonical_face_mesh.fbx
+  artifactKey: Guid(538464acafcf3406f94cb7a5cb51f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedFaces/Models/canonical_face_mesh.fbx using Guid(538464acafcf3406f94cb7a5cb51f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5221fb94d16187c678085f76f6af74') in 0.299847 seconds
+  Import took 0.303056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedFaces/Models/fox_sample.fbx
+  artifactKey: Guid(909f7e3faf16c4c1983434120ad9d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedFaces/Models/fox_sample.fbx using Guid(909f7e3faf16c4c1983434120ad9d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf58848af168a7aaddfe2885e91d2c6d') in 0.111068 seconds
+  Import took 0.113966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerRight.obj
+  artifactKey: Guid(1824455c8ec9e45ceb5a919fe307ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerRight.obj using Guid(1824455c8ec9e45ceb5a919fe307ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd906ad1b9c9e39b856f2138a5637c771') in 1.790754 seconds
+  Import took 1.794377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperLeft.obj
+  artifactKey: Guid(6666c2b1b39a3466c96b2a4be1428ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperLeft.obj using Guid(6666c2b1b39a3466c96b2a4be1428ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145a7fedc43616c3db3241747c604e70') in 0.030364 seconds
+  Import took 0.033424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GoogleARCore/Examples/ObjectManipulation/Materials/footprint.obj
+  artifactKey: Guid(f46e9f4cfc2694e5ea2041902ce3c91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/ObjectManipulation/Materials/footprint.obj using Guid(f46e9f4cfc2694e5ea2041902ce3c91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e0c503d7cefe9df1987c34a3f8adc1') in 0.030749 seconds
+  Import took 0.033890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerLeft.obj
+  artifactKey: Guid(74aca5660a7fd4b9eb3611a73c368d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerLeft.obj using Guid(74aca5660a7fd4b9eb3611a73c368d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193c78b5f0b5c3c8fdedd925e883b3f4') in 0.024295 seconds
+  Import took 0.027031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/GoogleARCore/Examples/Common/Materials/cloud_anchor.fbx
+  artifactKey: Guid(669ee420d8ea8449f91df60d461f6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/Common/Materials/cloud_anchor.fbx using Guid(669ee420d8ea8449f91df60d461f6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797efe6e407e19e0d0d6f016f8b5b547') in 0.038898 seconds
+  Import took 0.041894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/GoogleARCore/Examples/CloudAnchors/Models/Star_01.obj
+  artifactKey: Guid(65343d6b8619345468db5951c04f91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/CloudAnchors/Models/Star_01.obj using Guid(65343d6b8619345468db5951c04f91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309ac651cf1acd47d74c7c03f4fb3649') in 0.026718 seconds
+  Import took 0.030396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperRight.obj
+  artifactKey: Guid(72a7c3ddfe10740bba966d9a6f05202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperRight.obj using Guid(72a7c3ddfe10740bba966d9a6f05202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b009b0c1dac6d77d0af410bff9f2c3') in 0.028037 seconds
+  Import took 0.031138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/GoogleARCore/Examples/PersistentCloudAnchors/Materials/MapQualityBar.fbx
+  artifactKey: Guid(0575364903506495fa40bb2370fc0e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/PersistentCloudAnchors/Materials/MapQualityBar.fbx using Guid(0575364903506495fa40bb2370fc0e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdfa0acc391c6b1e44816cda2cb4f5e') in 0.176819 seconds
+  Import took 0.179678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.721615 seconds.
+  path: Assets/y2mate.com - Phils Custom 1970 Pro Touring Mustang_480p.mp4
+  artifactKey: Guid(42603ab8ea28a4b4081d7730ff5ad484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/y2mate.com - Phils Custom 1970 Pro Touring Mustang_480p.mp4 using Guid(42603ab8ea28a4b4081d7730ff5ad484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b29dc82d4e6b580773aaf4e17e03596') in 1.175409 seconds
+  Import took 1.178250 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 1.792533 ms (FindLiveObjects: 0.163118 ms CreateObjectMapping: 0.046676 ms MarkObjects: 1.527486 ms  DeleteObjects: 0.054504 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 2.182108 ms (FindLiveObjects: 0.220101 ms CreateObjectMapping: 0.073541 ms MarkObjects: 1.833667 ms  DeleteObjects: 0.053753 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.4 MB.
+System memory in use after: 145.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 2.268146 ms (FindLiveObjects: 0.185252 ms CreateObjectMapping: 0.051971 ms MarkObjects: 1.982620 ms  DeleteObjects: 0.047115 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 175.1 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 2.071040 ms (FindLiveObjects: 0.265272 ms CreateObjectMapping: 0.066630 ms MarkObjects: 1.679048 ms  DeleteObjects: 0.059061 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 665.385035 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9874f3bed41fcb12f484101788222d19') in 0.329265 seconds
+  Import took 0.336260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010920 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9874f3bed41fcb12f484101788222d19') in 0.024074 seconds
+  Import took 0.028295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.222562 seconds.
+  path: Assets/Body.mtl
+  artifactKey: Guid(1e56778a8fc274a879a8942cb921a9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Body.mtl using Guid(1e56778a8fc274a879a8942cb921a9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e0a51545fe9679fdc125e684767b2b') in 0.539938 seconds
+  Import took 0.544568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.457310 seconds.
+  path: Assets/Black Dragon/Dragon_Baked_Actions_fbx_7.4_binary.fbx
+  artifactKey: Guid(7e35bd5abf60a234798b95ef300f64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Dragon/Dragon_Baked_Actions_fbx_7.4_binary.fbx using Guid(7e35bd5abf60a234798b95ef300f64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4089d616bea680094da72e23514952') in 0.733107 seconds
+  Import took 0.754838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Black Dragon/Materials/Dragon_Nor_mirror2.jpg
+  artifactKey: Guid(5d95bf90450968043a396fe29670ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Dragon/Materials/Dragon_Nor_mirror2.jpg using Guid(5d95bf90450968043a396fe29670ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a413261472e04b8e90a44fc2f9ac89') in 1.174905 seconds
+  Import took 1.177969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Black Dragon/Materials/Dragon_Bump_Col2.jpg
+  artifactKey: Guid(86c89da0deb5b7f42adfd726a8b089d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Dragon/Materials/Dragon_Bump_Col2.jpg using Guid(86c89da0deb5b7f42adfd726a8b089d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade00333fa9098aa48375f41e1f44a7') in 0.076595 seconds
+  Import took 0.079662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Black Dragon/Materials/Dragon_Bump_Col2.mat
+  artifactKey: Guid(67c40689db4f867469ac41ef4b0444bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Dragon/Materials/Dragon_Bump_Col2.mat using Guid(67c40689db4f867469ac41ef4b0444bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21b093c844077d9804c1576a11f30fb') in 0.407218 seconds
+  Import took 0.410342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.805840 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4395c95f5197f5e92d861db3800df376') in 0.177122 seconds
+  Import took 0.182426 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.4 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 1.917092 ms (FindLiveObjects: 0.189147 ms CreateObjectMapping: 0.048243 ms MarkObjects: 1.626294 ms  DeleteObjects: 0.052345 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.6 MB.
+System memory in use after: 188.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 2.775097 ms (FindLiveObjects: 0.204451 ms CreateObjectMapping: 0.059230 ms MarkObjects: 2.449761 ms  DeleteObjects: 0.060333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 159.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 1.768666 ms (FindLiveObjects: 0.164278 ms CreateObjectMapping: 0.049915 ms MarkObjects: 1.506884 ms  DeleteObjects: 0.046662 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 389.391479 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c98f20821cd88bb12cde4bdc2645a2') in 0.477546 seconds
+  Import took 0.495744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026272 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c98f20821cd88bb12cde4bdc2645a2') in 0.157289 seconds
+  Import took 0.161251 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 1.671320 ms (FindLiveObjects: 0.164036 ms CreateObjectMapping: 0.049779 ms MarkObjects: 1.412379 ms  DeleteObjects: 0.044371 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.5 MB.
+System memory in use after: 159.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 1.746153 ms (FindLiveObjects: 0.193441 ms CreateObjectMapping: 0.054236 ms MarkObjects: 1.456041 ms  DeleteObjects: 0.041654 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.168414 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d646322b09f67aafafa0f308a55e27') in 0.260141 seconds
+  Import took 0.266037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.024377 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b7c011b1b1239bf4bb0a5f7813dd17') in 0.153642 seconds
+  Import took 0.158360 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.6 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 2.334368 ms (FindLiveObjects: 0.219673 ms CreateObjectMapping: 0.064739 ms MarkObjects: 1.996782 ms  DeleteObjects: 0.052222 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 1.947410 ms (FindLiveObjects: 0.182177 ms CreateObjectMapping: 0.054056 ms MarkObjects: 1.659456 ms  DeleteObjects: 0.050843 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 287.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.9 MB.
+System memory in use after: 160.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 130.515085 ms (FindLiveObjects: 0.812566 ms CreateObjectMapping: 0.335361 ms MarkObjects: 129.014533 ms  DeleteObjects: 0.347249 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4948.613324 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011741de0ef701d3e7e93b315dd2323') in 0.346728 seconds
+  Import took 0.367363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043943 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011741de0ef701d3e7e93b315dd2323') in 0.163458 seconds
+  Import took 0.167001 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.7 MB.
+System memory in use after: 189.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 1.854906 ms (FindLiveObjects: 0.223149 ms CreateObjectMapping: 0.055173 ms MarkObjects: 1.524983 ms  DeleteObjects: 0.050631 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.596 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.0 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 3.081893 ms (FindLiveObjects: 0.405557 ms CreateObjectMapping: 0.160055 ms MarkObjects: 2.404474 ms  DeleteObjects: 0.110217 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 190.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2049.
+Total: 1.841294 ms (FindLiveObjects: 0.179452 ms CreateObjectMapping: 0.056053 ms MarkObjects: 1.554325 ms  DeleteObjects: 0.050398 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.3 MB.
+System memory in use after: 190.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 2.486659 ms (FindLiveObjects: 0.247061 ms CreateObjectMapping: 0.060142 ms MarkObjects: 2.118005 ms  DeleteObjects: 0.059853 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021480 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.5 MB.
+System memory in use after: 190.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 2.519054 ms (FindLiveObjects: 0.261454 ms CreateObjectMapping: 0.106094 ms MarkObjects: 2.087527 ms  DeleteObjects: 0.062922 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.7 MB.
+System memory in use after: 190.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 1.950418 ms (FindLiveObjects: 0.197419 ms CreateObjectMapping: 0.065949 ms MarkObjects: 1.622424 ms  DeleteObjects: 0.063699 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.2 MB.
+System memory in use after: 161.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 2.398928 ms (FindLiveObjects: 0.224332 ms CreateObjectMapping: 0.063108 ms MarkObjects: 2.030293 ms  DeleteObjects: 0.079753 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2536.756780 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a126e16108670187cbc2843113e84925') in 0.221314 seconds
+  Import took 0.226399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.934862 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ad4da2abc96ae7ff5242a5ee4d848b') in 0.020458 seconds
+  Import took 0.025930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006381 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ad4da2abc96ae7ff5242a5ee4d848b') in 0.026931 seconds
+  Import took 0.031363 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.0 MB.
+System memory in use after: 191.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2058.
+Total: 3.317982 ms (FindLiveObjects: 0.418611 ms CreateObjectMapping: 0.097254 ms MarkObjects: 2.704091 ms  DeleteObjects: 0.094938 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 31.395992 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28270e422dffd8276a27aaf213ff337a') in 0.081620 seconds
+  Import took 0.084643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.729639 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8710dcbce78045a4285765ad4a3194') in 0.022636 seconds
+  Import took 0.025813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.336586 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a595a9a0151a0a5eaf3a4cbdd91e105e') in 0.036149 seconds
+  Import took 0.039812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.818301 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9b11ae28803cf11cdcfef8cee6078c') in 0.027997 seconds
+  Import took 0.031826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.950254 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed4a0f2cb05082b8b58a428804950e0') in 0.042264 seconds
+  Import took 0.045529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.217242 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548d1af8ef9ec5549c1c9fad05fe2c57') in 0.032232 seconds
+  Import took 0.035196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.764607 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374c9577f44d888c9ae5875ff5f272d') in 0.035904 seconds
+  Import took 0.039258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.658013 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3477c09b47626c405ac4415faaad488') in 0.037872 seconds
+  Import took 0.043079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.964814 seconds.
+  path: Assets/Unity/Dragon Unity 5.unitypackage
+  artifactKey: Guid(271f30a82da994e5990d953bc1a23789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Dragon Unity 5.unitypackage using Guid(271f30a82da994e5990d953bc1a23789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c117a219444eb04ecc4a95d30e90b0') in 0.013196 seconds
+  Import took 0.016574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.748967 seconds.
+  path: Assets/Externos
+  artifactKey: Guid(36b9bba55c5414b68bd778f78d033655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externos using Guid(36b9bba55c5414b68bd778f78d033655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0751ff92eb8d17cedfaa7965c28acbd') in 0.003684 seconds
+  Import took 0.007093 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
+System memory in use after: 163.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 2.748273 ms (FindLiveObjects: 0.222951 ms CreateObjectMapping: 0.055291 ms MarkObjects: 2.396753 ms  DeleteObjects: 0.071790 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.147342 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c0ea274782a0959f0609b044c6e280') in 0.079504 seconds
+  Import took 0.105568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.338075 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7c87c60f97e103ac72dfec0c073497') in 0.038518 seconds
+  Import took 0.042415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.373030 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9fa9f14e589f53d69a5ddbcd48f890') in 0.039083 seconds
+  Import took 0.044071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.452216 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d5dd75458b5605802d699aafef00bb') in 0.021356 seconds
+  Import took 0.024450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191699 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8c51c673f78e99e77fe4c03c3d673a') in 0.021959 seconds
+  Import took 0.026274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782055 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3632ae9efd09a20c23374e7a0f256b8e') in 0.021637 seconds
+  Import took 0.025941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.315478 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ac68b566db52c93f6254ef5939a952') in 0.019434 seconds
+  Import took 0.022742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.087342 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161038c332be0d64575e4a54b4b54327') in 0.016808 seconds
+  Import took 0.020164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.978708 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2c025c5ecaff9400e48088ff74eb82') in 0.017234 seconds
+  Import took 0.021163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.026062 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae11eae99ac670d328f696a13dc059f') in 0.017382 seconds
+  Import took 0.021868 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.5 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 21.995892 ms (FindLiveObjects: 0.356690 ms CreateObjectMapping: 0.071513 ms MarkObjects: 21.488233 ms  DeleteObjects: 0.078265 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.009074 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e051c0e8a5c7748d2a57d199522e0401') in 0.281198 seconds
+  Import took 0.287802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012540 seconds.
+  path: Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab
+  artifactKey: Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab using Guid(85a5b6187b6924bd5adcdffee036da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e051c0e8a5c7748d2a57d199522e0401') in 0.267641 seconds
+  Import took 0.273377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 364.404878 seconds.
+  path: Assets/Textures/Wolf_Body.jpg
+  artifactKey: Guid(d55bac042aecb044a8fcfa2ad12b33bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wolf_Body.jpg using Guid(d55bac042aecb044a8fcfa2ad12b33bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2521c92ccd58a7ef19e845835570e36e') in 0.124401 seconds
+  Import took 0.128011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Textures/Wolf_Eyes_2.jpg
+  artifactKey: Guid(750d9ed0f3ca1de4c8f029f5b4a936e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wolf_Eyes_2.jpg using Guid(750d9ed0f3ca1de4c8f029f5b4a936e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62924243d93652c7fdeb2c7b6965e597') in 0.014862 seconds
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Textures/Wolf_Eyes_1.jpg
+  artifactKey: Guid(ade0b773e401ba74e9ed3fd262663062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wolf_Eyes_1.jpg using Guid(ade0b773e401ba74e9ed3fd262663062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac22a3e890e0815388ccba3e9daa7597') in 0.027375 seconds
+  Import took 0.030377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Textures/Wolf_Fur_Alpha_3.png
+  artifactKey: Guid(5a233ebe4f8567342a54401a94574e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wolf_Fur_Alpha_3.png using Guid(5a233ebe4f8567342a54401a94574e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27b08f0df6f69c4cfb07fbe8683f9fb') in 1.809206 seconds
+  Import took 1.813408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.937520 seconds.
+  path: Assets/Wolf.fbx
+  artifactKey: Guid(91d2fb8fbb39fab44b86ce07763f1e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf.fbx using Guid(91d2fb8fbb39fab44b86ce07763f1e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e175f720905474e2f1942eaef6ac20') in 0.745584 seconds
+  Import took 0.749717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Wolf.prefab
+  artifactKey: Guid(0bff5de0452ee2b4ab4d0603fe171d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf.prefab using Guid(0bff5de0452ee2b4ab4d0603fe171d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448589d954c150661b75a446be442601') in 0.268681 seconds
+  Import took 0.271497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.476356 seconds.
+  path: Assets/wolfSettings.lighting
+  artifactKey: Guid(d4a27dfc20fba4c2db76679c229a481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wolfSettings.lighting using Guid(d4a27dfc20fba4c2db76679c229a481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8c743b63c87934b054001b000ae314f5') in 0.264956 seconds
+  Import took 0.269636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.762872 seconds.
+  path: Assets/wolf.unity
+  artifactKey: Guid(5767cab6284977f44848024d4ca7686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wolf.unity using Guid(5767cab6284977f44848024d4ca7686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061ab96f64d5f0a7c769360fb012d9fb') in 0.014295 seconds
+  Import took 0.018245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.764051 seconds.
+  path: Assets/Wolf.controller
+  artifactKey: Guid(98d30e3fe879b6449815e541e3c69c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf.controller using Guid(98d30e3fe879b6449815e541e3c69c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ab83b83046a90631854da363367ced') in 0.280171 seconds
+  Import took 0.286038 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 2.163261 ms (FindLiveObjects: 0.300474 ms CreateObjectMapping: 0.066295 ms MarkObjects: 1.705431 ms  DeleteObjects: 0.089981 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 2.281685 ms (FindLiveObjects: 0.244563 ms CreateObjectMapping: 0.068366 ms MarkObjects: 1.899525 ms  DeleteObjects: 0.068243 ms)
+
