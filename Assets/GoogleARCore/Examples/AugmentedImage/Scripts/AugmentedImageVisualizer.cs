@@ -36,7 +36,7 @@ namespace GoogleARCore.Examples.AugmentedImage
         /// The AugmentedImage to visualize.
         /// </summary>
         public AugmentedImage Image;
-
+        public GameObject Cubo;
        
 
         public GameObject Video;
@@ -53,13 +53,21 @@ namespace GoogleARCore.Examples.AugmentedImage
                 return;
             }
 
-     
-            Video.SetActive(true);
+            if (Image.Name == "Earth")
+            {
+                Video.SetActive(true);
+                Cubo.SetActive(false);
+            }
+
+            if (Image.Name == "Cafe")
+            {
+                Cubo.SetActive(true);
+                Video.SetActive(false);
+            }
 
             float halfWidth = Image.ExtentX / 2;
             float halfHeight = Image.ExtentZ / 2;
-            Video.transform.localPosition =
-                (halfWidth * Vector3.left) + (halfHeight * Vector3.back);
+            //Video.transform.localPosition = (halfWidth * Vector3.left) + (halfHeight * Vector3.back);
             /*FrameLowerRight.transform.localPosition =
                 (halfWidth * Vector3.right) + (halfHeight * Vector3.back);
             FrameUpperLeft.transform.localPosition =
